@@ -1,0 +1,15 @@
+data:
+  root: data/
+  batch_size: 64
+  img_size: 224
+
+model:
+  pretrained: True
+  num_classes: 10
+
+train:
+  epochs: 5
+  lr: 0.001
+
+test:
+  batch_size: 64
